@@ -1,0 +1,58 @@
+.authorization_container {
+  width: 40%;
+  height: 40%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.authorization_container h2 {
+  align-self: start;
+  margin-top: 15px;
+}
+.authorization_container .failed {
+  border: 2px solid rgb(245, 5, 5);
+}
+.authorization_container .submit {
+  width: 100%;
+  height: 20%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.authorization_container .submit button {
+  width: 40%;
+  height: 60px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(149, 241, 149);
+  border-radius: 20px;
+}
+.authorization_container .submit .loader {
+  width: 30px;
+  -webkit-animation: 3s linear infinite spin;
+          animation: 3s linear infinite spin;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=authorization_style.css.map */
